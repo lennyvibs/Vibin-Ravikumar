@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://lennyvibs.github.io/Vibin-Ravikumar",  
+  "homepage": "https://lennyvibs.github.io/Vibin-Ravikumar",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
+    "@types/node": "^22.15.21",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
@@ -35,8 +36,4 @@
     "typescript-eslint": "^8.3.0",
     "vite": "^5.4.2"
   }
-
-  
-
-
 }

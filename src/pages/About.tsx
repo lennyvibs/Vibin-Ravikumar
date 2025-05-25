@@ -17,7 +17,11 @@ export default function About() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-black to-green-900">
       <div className="relative h-screen">
-        <VideoBackground src="/videos/background.mp4" opacity="opacity-30" />
+        <VideoBackground
+          src={`${import.meta.env.BASE_URL}videos/background.mp4`}
+          opacity="opacity-30"
+        />
+
 
         <div className="relative z-10 h-full flex items-center justify-center">
           <motion.div
