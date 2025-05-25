@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes,Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import Navbar from './components/Navbar';
 import About from './pages/About';
@@ -15,7 +15,8 @@ function App() {
       <div className="min-h-screen bg-black text-white">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Navigate to="/about" replace />} />
+          <Route path="/" element={<About />} />
+
           <Route path="/projects" element={<Projects />} />
           <Route path="/publications" element={<Publications />} />
           <Route path="/blogs" element={<Blogs />} />
