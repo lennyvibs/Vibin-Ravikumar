@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://yourusername.github.io/Vibin-Ravikumar",  
+  "homepage": "https://lennyvibs.github.io/Vibin-Ravikumar",  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
