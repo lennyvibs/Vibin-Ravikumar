@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import { Route, Routes } from 'react-router-dom';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import Navbar from './components/Navbar';
 import About from './pages/About';
@@ -11,7 +12,7 @@ import Resume from './pages/Resume';
 
 function App() {
   return (
-    <Router>
+
       <div className="min-h-screen bg-black text-white">
         <Navbar />
         <Routes>
@@ -57,7 +58,7 @@ function App() {
           </div>
         </footer>
       </div>
-    </Router>
+
   );
 }
 
