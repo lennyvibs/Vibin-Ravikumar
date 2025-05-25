@@ -9,5 +9,8 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  build: {
+    sourcemap: true      // ← turn on source maps
+  },
 });
 
