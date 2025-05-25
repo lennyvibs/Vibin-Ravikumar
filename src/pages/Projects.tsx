@@ -20,7 +20,7 @@ const projects: Project[] = [
 export default function Projects() {
   return (
     <div className="min-h-screen relative">
-      <VideoBackground src="/videos/background.mp4" opacity="opacity-20" tint={true} />
+      <VideoBackground src={`${import.meta.env.BASE_URL}videos/background.mp4`} opacity="opacity-20" tint={true} />
       <div className="relative pt-20 px-4 z-10">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold text-green-400 mb-12">Projects</h1>
